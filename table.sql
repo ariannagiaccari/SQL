@@ -6,5 +6,6 @@ genre TEXT VARCHAR(40) NOT NULL,
 price DECIMAL(9,3),
 rating NUMERIC,
 published_year DATE,
-stock_count TEXT NOT NULL
+stock_count TEXT NOT NULL,
+isbn BIGINT
 )
